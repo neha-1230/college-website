@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #242424;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.header{
+    background: #1b5e64;
+    padding: 6px;
+}
+.header b{
+    color: rgb(223, 3, 3);
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.header marquee{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.header marquee:hover{
+    color: rgb(231, 41, 41);
+    text-decoration: underline;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    width: 120px;
+    cursor: pointer;
+}
+nav a{
+    padding: 15px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    position: relative;
+}
+nav a::before{
+    content: "";
+    width: 0%;
+    height: 5%;
+    background: #1b5e64 ;
+    left: 0;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 6px;
+    transition: .5s;
+}
+nav a:hover::before{
+    width: 100%;
+}
+
+.silder img{
+    width: 100%;
+    height: 60vh;
+}
+.new{
+    width: 30px;
+    float: left;
+    margin-right: 2%;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    background-color: rgb(241, 241, 241);
+    top: 0;
+}
+.heading{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1b5e64;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #1b5e64;
+    
+}
+.event{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.event .heading{
+    border-bottom: 1px solid #1b5e64;
+    padding: 5px;
+    color: white;
+    background-color: #1b5e64;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.event ul li{
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.event-date{
+    background-color: #1b5e64;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+    padding: 8px 12px;
+}
+.about-us{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-top: 40px ;
+    margin-bottom: 40;
+    gap: 50px;
+}
+.about-us img{
+    width: 500px;
+}
+.about-us div{
+    font-size: 22px;
+    width: 55%;
+    line-height: 32px;
+    color: #878787;
+    text-align: justify;
+}
+.reference{
+    max-width: 1300px;
+    margin: auto;
+}
+.award_img{
+    width: 100%;
+    height: 35vh;
+    
+}
+.reference .event{
+    height: 48vh;
+}
+.event h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px 0;
+}
+.event p{
+    float: left;
+    line-height: 32px;
+    font-size: 17px;
+}
+.event b{
+    min-width: 115px;
+    float: left;
+}
+.review{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.review-container{
+    margin-top: 50px;
+    display: flex;
+   
+    margin: auto;
+    left: 0;
+    transform: translateX(5%);
+}
+.testimonial{
+    flex-basis: 33%;
+    margin-bottom: 40px;
+}
+.testimonial-text{
+    width: 300px;
+    background-color: #1b5e64;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+}
+.testimonial-details{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.testimonial-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+.name{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.gallery{
+    
+    background-color: rgb(241, 241, 241);
+}
+.gallery-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 0;
+}
+.row1 img{
+    width: 320px;
+    height: 280px;
+}
+.place{
+    background-color: #fff;
+}
+.containerP{
+    width: 80%;
+    margin: auto;
+}
+.p1{
+    width: 140px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.footer{
+    background-color: #1b5e64;
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+.footer-logo{
+    width: 60%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.footer-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+.footer-section a{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
+.footer-section i{
+    background-color: #fff;
+    color: #1b5e64;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+}
